@@ -13,7 +13,7 @@ const Alert = (props) => {
         if(id == 0){
             alert("debe ingresar ID");
         } else if (nombre == ("")){
-            alert("cebe ingresar nombre");
+            alert("debe ingresar nombre");
         }
    }
 

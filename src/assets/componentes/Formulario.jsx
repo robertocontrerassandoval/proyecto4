@@ -68,6 +68,7 @@ return (
   <Form onSubmit={enviarFormulario}>
       <Form.Group className="mb-3" controlId="formBasicId">
         <Form.Control 
+        size='m'
         name='idColaborador'
         type="text" 
         placeholder="Id colaborador"
@@ -78,6 +79,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicNombre">
         <Form.Control 
+        size='m'
         name='nombreColaborador'
         type="text" 
         placeholder="Nombre colaborador"
@@ -88,6 +90,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicCorreo">
         <Form.Control 
+        size='m'
         name='nombreColaborador'
         type="email" 
         placeholder="Correo colaborador"
@@ -98,6 +101,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicEdad">
         <Form.Control 
+        size='m'
         name='nombreColaborador'
         type="number" 
         placeholder="Edad colaborador"
@@ -108,6 +112,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicCargo">
         <Form.Control 
+        size='m'
         name='nombreColaborador'
         type="text" 
         placeholder="Cargo colaborador"
@@ -118,6 +123,7 @@ return (
 
       <Form.Group className="mb-3" controlId="formBasicTelefono">
         <Form.Control 
+        size='m'
         name='nombreColaborador'
         type="text" 
         placeholder="Telefono colaborador"
@@ -126,7 +132,7 @@ return (
         />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" size='m'>
         Agregar colaborador
       </Button>
     </Form>
