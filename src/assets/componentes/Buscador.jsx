@@ -23,13 +23,14 @@ const Buscador = () => {
 
     return (
       <div>
-                <div>
+                <div className='buscador'>
            
 
 
-           <Form onSubmit={buscarInput}>
+           <Form onSubmit={buscarInput} >
              <Form.Group className="mb-3" controlId="formBasicBuscar">
                <Form.Control 
+               size="m"
                name='buscarColaborador'
                type="text" 
                placeholder="Buscar"
@@ -48,9 +49,9 @@ const Buscador = () => {
        
                </div>
        
-       <div>
+       {/* <div>
        
-       <Table  striped bordered>
+       <Table  striped >
        
        <tbody>
        
@@ -67,7 +68,7 @@ const Buscador = () => {
        </tbody>
        </Table>
        
-       </div>
+       </div> */}
        
 
       </div>

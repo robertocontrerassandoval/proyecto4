@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Form, Table } from 'react-bootstrap';
 import {BaseColaboradores} from '../js/BaseColaboradores.js';
 
@@ -138,7 +139,7 @@ return (
 
    <div>
 
-   <Table  striped bordered>
+   <Table  striped bordered hover size="sm">
 <thead>
   <tr>
     <th scope='col'>Id</th>
